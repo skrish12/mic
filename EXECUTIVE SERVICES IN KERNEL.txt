@@ -1,0 +1,41 @@
+I/O MANAGER:
+	
+	 @ The Windows kernel-mode I/O manager manages the communication between applications and the interfaces provided by device drivers. 
+
+         @ They are passed from operating system to specific drivers and from one driver to another.
+	
+	 @ The communication between the operating system and device drivers is primarily done through I/O request packets (IRPs). 
+
+
+I/O MANAGER COMPONENTS:
+
+	The I/O manager has two subcomponents: 
+
+			  1.Plug and Play manager 
+                          2.Power manager.
+
+............................................................................................................................................................
+
+OBJECT MANAGER:
+
+	@ The Windows kernel-mode object manager component manages objects. 
+	   Ex:Files,devices,registry keys, and so on.
+
+	@ An object is a collection of data that the operating system manages.
+
+	@ Windows has more than 25 types of objects.
+
+	@ keeps track of the objects allocated to process.
+
+................................................................................................................................................................
+
+PROCESS AND THREAD MANAGER:
+
+	@ A process is a software program that is currently running in Windows.
+	
+	@ A thread is an object that identifies which part of the program is running.
+
+	@ The Windows kernel-mode process and thread manager handles the execution of all threads in a process. 
+
+ 
+
